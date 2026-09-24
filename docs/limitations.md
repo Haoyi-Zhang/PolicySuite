@@ -1,0 +1,15 @@
+# Boundaries of the retained evidence
+
+The request tuples and rule activation tables are the semantic inputs. There is no proven native-policy-to-table importer. No external policy decision point was executed. Publicly retrieved Balana examples were screened but not used as experimental inputs, and their obligations, hierarchy, legacy combining identifiers, and expression semantics were not silently removed to manufacture 20 compatible policies. All 144 campaign cases are owned finite inputs.
+
+The local mutation profile includes every effect flip and deletion. The extended profile adds constant activation replacement, adjacent swaps, and selected root-combiner replacements. The checker rejects omitted members under those profile labels. Neither inventory covers arbitrary XACML features, higher-order mutations, policy intent, production safety, or pairwise fault diagnosis. Equivalence is only on the declared request domain. Indeterminate types are retained during combining and collapsed only at the policy root.
+
+The two-layer result is a semantic application of classical matching. The quotient, set-cover formulation, and general exact recurrence are not claimed as new algorithms. Full-text clearance against the 2014 coverage ancestor and the 2022 fault-theory paper remains incomplete. The requested 12 same-venue + 5 influential + 5 adjacent full-paper calibration has not been met. A 2025 ReBAC integer-programming/conformance-testing paper is an additional unverified closest-work lead, not evidence of an absent prior result.
+
+The independent checker is separately coded, not independently audited and not formally verified. It recomputes finite supports; it does not authenticate policy provenance. Its schema limits are not a hostile-input parsing or denial-of-service guarantee. The corruption campaign covers a declared finite set of changes, not all malformed certificates.
+
+The exact fallback can be exponential. Three-snapshot partition hardness does not rule out richer support-incidence parameters. The two-snapshot public-error packing gap does not settle the exact complexity of every two-snapshot error case. The main solver does not implement the one-snapshot public-error-specific constructive optimization; that construction is validated separately in a theorem test.
+
+The retained empirical workload is small: at most 32 requests and 21 rules per snapshot. The supported 4,096-request and 80-rule limits are admission ceilings, not measured performance. CPU and RSS are observed process measurements; fixed generated families do not support population-level confidence or prevalence claims. The stronger globally subsumed greedy baseline was added after the original campaign and is labeled post-protocol.
+
+Only retained campaign and clean reproduction counters are fully linked to raw records. All preliminary repair attempts did not retain a complete cumulative logical-step log. Cgroup CPU accounting provides a conservative session-wide CPU upper bound, but it is not a per-experiment timing study. No exact all-development logical-step-closure claim is made.
