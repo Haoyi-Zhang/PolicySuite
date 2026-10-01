@@ -8,7 +8,7 @@ For two snapshots whose inclusion-minimal nonempty mutation supports are disjoin
 
 Written proofs also establish a sharp factor-two disjoint-packing gap for two first-applicable snapshots with public errors, three-snapshot NP-completeness even for disjoint error-free permit rules, and output-preserving DO/FA revisions whose local minimum grows from one to n (the retained all-permit PO contrast grows from zero to n). General proofs are mathematical text, not proof-assistant mechanizations.
 
-The retained campaign has **144 owned cases**: 120 generated and 24 fixtures. There are 111 packing and 33 recurrence certificates. All 144 passed the separately coded checker. It is not the proposed 164-case public-and-generated campaign: the 20-native-public-policy component is missing. Complete closest-work full-text positioning and journal readiness are also unresolved. See `proofs/theorems.md`, the claim ledger, and `docs/limitations.md` for precise boundaries.
+The retained campaign has **144 owned cases**: 120 generated and 24 fixtures. There are 111 packing and 33 recurrence certificates. All 144 passed the separately coded checker. It is not the proposed 164-case public-and-generated campaign: native full-XACML replay is deliberately outside the retained model because the artifact has no semantics-preserving importer. The paper treats this as an external-validity limitation rather than relabeling public examples as compatible inputs. See `proofs/theorems.md`, the claim ledger, and `docs/limitations.md` for precise boundaries.
 
 ## Run from a clean extraction
 
@@ -43,6 +43,8 @@ It verifies that the 20 unchanged refinement records comprise 13 DO/FA cases wit
 python tests/test_core.py
 python tests/test_structure.py
 python tests/test_error_boundary.py
+python tests/test_generator_independence.py
+python tests/test_metamorphic.py
 python src/generate.py /tmp/conflict-owned-inputs
 python src/run_campaign.py --cases data/cases --output /tmp/conflict-campaign --start 0 --stop 144
 python src/kernel_baseline.py --cases data/cases --output /tmp/conflict-kernel.json
@@ -63,3 +65,13 @@ The original campaign records 5,522,547 conservative checking steps and 3.347 su
 ## License and assistance
 
 Original repository materials use the accompanying MIT license. No third-party solver, Balana code, native policy corpus, or external research PDF is redistributed here. The companion paper package's unmodified IEEE template assets retain their own notices. ChatGPT was used substantively in formulation, proof drafting, code, finite execution, and documentation; this is not a claim of human-only authorship or independent validation. External use requires human assessment of rights, authorship, scientific responsibility, and the relevant disclosure rules.
+
+## Paper-reference release audit
+
+The complete project packet includes a paper-side release checker:
+
+```sh
+python paper/audit_references.py --paper-dir paper --output-dir artifact/results
+```
+
+It verifies the 61-entry bibliography, TeX citation use, DOI/title/key uniqueness, the canonical Hopcroft and Karp records, the 61-item BBL, the 12-page PDF, and source-to-PDF modification order. Its retained output is `results/reference-audit.json`; the row-level citation-context ledger is `results/reference-audit.csv`. This optional release check belongs to the complete project package; the standalone scientific reproduction above remains independent of `paper/`.
