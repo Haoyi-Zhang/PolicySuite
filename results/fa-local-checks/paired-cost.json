@@ -1,18 +1,18 @@
 {
   "command": [
-    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "<PYTHON_ROOT>\\python.exe",
     "-B",
-    "D:\\CodexProjects\\wg-check\\substantive-library\\P013\\artifact\\src\\fa_comparison.py",
+    "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\src\\fa_comparison.py",
     "--cases",
-    "D:\\CodexProjects\\wg-check\\substantive-library\\P013\\artifact\\data\\cases",
+    "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\data\\cases",
     "--work",
-    "D:\\CodexProjects\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P013\\cost-wire",
+    "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P013\\cost-wire",
     "--out",
-    "D:\\CodexProjects\\wg-check\\substantive-library\\P013\\artifact\\results\\fa-local"
+    "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\results\\fa-local"
   ],
   "environment": {
     "PYTHONDONTWRITEBYTECODE": "1",
-    "executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "executable": "<PYTHON_ROOT>\\python.exe",
     "platform": "Windows-11-10.0.28000-SP0",
     "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
   },

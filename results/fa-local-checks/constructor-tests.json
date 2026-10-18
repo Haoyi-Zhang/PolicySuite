@@ -1,13 +1,13 @@
 {
   "command": [
-    "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "<PYTHON_ROOT>\\python.exe",
     "-B",
-    "D:\\CodexProjects\\wg-check\\substantive-library\\P013\\artifact\\tests\\test_fa_constructor.py",
+    "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\tests\\test_fa_constructor.py",
     "-v"
   ],
   "environment": {
     "PYTHONDONTWRITEBYTECODE": "1",
-    "executable": "C:\\Users\\Administrator\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "executable": "<PYTHON_ROOT>\\python.exe",
     "platform": "Windows-11-10.0.28000-SP0",
     "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
   },
