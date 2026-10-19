@@ -24,7 +24,7 @@
     "-B",
     "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\src\\checker.py",
     "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\data\\cases\\fixture-007.json",
-    "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P013\\public-fa.json"
+    "<WORK_ROOT>/public-fa.json"
   ],
   "environment": {
     "PYTHONDONTWRITEBYTECODE": "1",

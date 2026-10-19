@@ -4,7 +4,7 @@
     "-B",
     "<PROJECTS_ROOT>\\wg-check\\substantive-library\\P013\\artifact\\tests\\test_retained_replay.py",
     "--output",
-    "<PROJECTS_ROOT>\\2026-07-13\\new-chat-4\\completion_workspace\\library_review\\private\\substantive_library_completion\\P013\\portable-replay"
+    "<WORK_ROOT>/portable-replay"
   ],
   "environment": {
     "PYTHONDONTWRITEBYTECODE": "1",
