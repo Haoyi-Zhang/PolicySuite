@@ -25,8 +25,15 @@ def select(supports, requests):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--cases', default='data/cases')
     ap.add_argument('--output', default='results/kernel-greedy.json'); args=ap.parse_args()
-    start = time.process_time(); results=[]
-    for p in sorted(Path(args.cases).glob('*.json')):
+    start = time.process_time()
+    cases=Path(args.cases)
+    if not cases.is_dir():
+        ap.error('--cases must name an existing case directory')
+    paths=sorted(cases.glob('*.json'))
+    if not paths:
+        ap.error('--cases contains no JSON case files')
+    results=[]
+    for p in paths:
         c=json.loads(p.read_text()); result=select(incidence(c)['supports'],len(c['requests']))
         results.append(dict(id=c['id'],family=c['family'],**result))
     out=Path(args.output);out.parent.mkdir(parents=True,exist_ok=True)
